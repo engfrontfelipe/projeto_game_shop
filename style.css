@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*fonts do site*/
+header h1, header ul li a,
+section h2,
+section h3,
+form button{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/*formatação do site*/
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+/*organização geral*/
+
+header{
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+
+}
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.branch-list img{
+    height: 24px;
+}
+.branch-list li{
+    display: inline;
+    margin-left: 8px;
+
+}
+
+section{
+    padding: 24px 0;
+    color:#182c61
+
+}
+section h2{
+    margin-bottom: 16px;
+
+}
+section p{
+    margin-bottom:8px ;
+
+}
+
+#front-store{
+    margin-right: 32px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button{
+    width: 320px;
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+textarea{
+    resize: none;
+    height: 180px;
+}
+form button{
+    background-color: #182c61;
+    color:#ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color:#384e8b;
+}
+
+input:focus, textarea:focus{
+    outline-color:#182c61 ;
+}
+
+footer{
+    background-color: #182c61;
+    color:#ecf0f1;
+    padding: 16px 0;
+    align-items: center ;
+    text-align: center;
+
+
+}
